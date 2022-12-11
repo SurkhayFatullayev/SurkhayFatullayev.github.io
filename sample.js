@@ -158,7 +158,7 @@ function inov(){
     document.querySelectorAll('.inov').forEach(function(el) {
       if(el.style.display=='block'){
         el.style.display = 'none';
-        this.document.querySelector('.limbo-in').style.border='2px solid #44C4FE'
+        this.document.querySelector('.limbo-in').style.border='2px solid #0192cb'
       }
       else{
         el.style.display = 'block'; 
@@ -172,11 +172,11 @@ function nesr(){
   document.querySelectorAll('.nesr').forEach(function(el) {
     if(el.style.display=='block'){
       el.style.display = 'none';
-      this.document.querySelector('.limbo-in').style.border='2px solid #44C4FE'
+      this.document.querySelector('#nesr').style.border='2px solid #0192cb'
     }
     else{
       el.style.display = 'block'; 
-      this.document.querySelector('.limbo-in').style.border='none'
+      this.document.querySelector('#nesr').style.border='none'
     }
  });
 }
@@ -186,11 +186,11 @@ function tedbib(){
   document.querySelectorAll('.tedbib').forEach(function(el) {
     if(el.style.display=='block'){
       el.style.display = 'none';
-      this.document.querySelector('.limbo-in').style.border='2px solid #44C4FE'
+      this.document.querySelector('#tedbib').style.border='2px solid #0192cb'
     }
     else{
       el.style.display = 'block'; 
-      this.document.querySelector('.limbo-in').style.border='none'
+      this.document.querySelector('#tedbib').style.border='none'
     }
  });
 }
@@ -200,11 +200,11 @@ function ekh(){
   document.querySelectorAll('.ekh').forEach(function(el) {
     if(el.style.display=='block'){
       el.style.display = 'none';
-      this.document.querySelector('.limbo-in').style.border='2px solid #44C4FE'
+      this.document.querySelector('#ekh').style.border='2px solid #0192cb'
     }
     else{
       el.style.display = 'block'; 
-      this.document.querySelector('.limbo-in').style.border='none'
+      this.document.querySelector('#ekh').style.border='none'
     }
  });
 }
@@ -214,11 +214,11 @@ function sbb(){
   document.querySelectorAll('.sbb').forEach(function(el) {
     if(el.style.display=='block'){
       el.style.display = 'none';
-      this.document.querySelector('.limbo-in').style.border='2px solid #44C4FE'
+      this.document.querySelector('#sbb').style.border='2px solid #0192cb'
     }
     else{
       el.style.display = 'block'; 
-      this.document.querySelector('.limbo-in').style.border='none'
+      this.document.querySelector('#sbb').style.border='none'
     }
  });
 }
