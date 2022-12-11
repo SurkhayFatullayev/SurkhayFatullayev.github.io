@@ -1,0 +1,276 @@
+@font-face {
+    src: url(fonts/Blender-Pro-Bold.otf);
+    font-family:nos;
+}
+@import url('http://fonts.cdnfonts.com/css/bahnschrift');
+html::-webkit-scrollbar{
+    display: none;
+}
+.names-cont::-webkit-scrollbar-track {
+    width: 10px;
+    background: none; 
+}
+.names-cont::-webkit-scrollbar {
+    width: 10px;
+  }
+.names-cont::-webkit-scrollbar-thumb {
+    width: 5px;
+    border-radius: 10px;
+    background-image: linear-gradient(180deg, #fff 0%, #708ad4 99%); 
+  }
+  
+  /* Handle on hover */
+.names-cont::-webkit-scrollbar-thumb:hover {
+    background-image: linear-gradient(180deg, #fff 0%, #708ad4 99%); 
+}   
+html{
+    margin: 0%;
+    font-family: 'Bahnschrift',sans-serif ;
+    border: 0px;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'nos';
+    font-style: normal;
+    margin: 0%;
+    border: 0px;
+    background-image: url("Untitled-1.jpg");
+    overflow-x: hidden;
+    overflow: hidden;
+    background: #F6FAFF!important;
+}
+.info-holder{
+    width: 80px;
+    height: 1000px;
+    background: #44C4FE;
+    display: inline-block;
+}
+#profile{
+    width: 60px;
+    height: 60px;
+    background-color: gray;
+    border-radius: 100%;
+    margin-left: 10px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+#name{
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.limbo{
+    top: 9%;
+    left: 8%;
+    display: inline-block;
+    position: absolute;
+}
+.limbo-in{
+    width: 292px;
+    height: 53px;
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 9px 8px 24px -1px rgb(0 0 0 / 9%);
+    margin: 17px;
+    padding: 10px;
+}
+.limbo-in span{
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #170F49;
+    line-height: 28px;
+    vertical-align: middle;
+}
+.limbo-in button{
+    
+    width: 30px;
+    height: 30px;
+    float: right;
+    border-radius: 100%;
+    box-shadow: 9px 8px 24px -1px rgb(0 0 0 / 9%);
+    background-color: #FFFFFF;
+    vertical-align: middle;
+    border: 2px solid #0192cb;
+    margin-top: 0px;
+    padding: 5px;
+}
+.name-collector{
+    margin-top: 25px;
+    margin-right: 45px;
+    width: 990px;
+    height: 640px;
+    float: right;
+    border: 3px solid #0095D2;
+    border-radius: 14px;
+    padding: 0px 8px;
+    background-color: #FFF;
+}
+#names-cont{
+    width: 98%;
+    height: 98%;
+    padding: 2% 0%;
+    overflow-y: scroll;
+}
+.names{
+    width: 916px;
+    min-height: 40px;
+    padding-top: 5px;
+    margin-left: 15px;
+    margin-top: 12px;
+    margin-bottom: 25px;
+    background-color: #f1f7ff;
+    border-bottom: 2px solid #0095D2;
+    box-shadow: 0px 9px 22px -4px rgb(0 0 0 / 25%);
+    border-radius: 14px;
+}
+.min-names{
+    font-style: normal;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 14px;
+    margin: 0px 20px;
+    color: #989898;
+    padding-top: 6px;
+}
+.in-check{
+    display: block;
+    padding: 10px 20px;
+}
+.inputs{
+    display: inline-block;
+    color: #808080;
+}
+.inputs span{
+    font-size: 12px;
+    vertical-align: -webkit-baseline-middle;
+}
+.typer{
+    background: #F6FAFF;
+    border-radius: 8px;
+    width: 437px;
+    display: block;
+    height: 100%;
+    border: 0px;
+    box-shadow: 0px 9px 22px -4px rgb(0 0 0 / 25%);
+    padding: 5px;
+    color: #808080;
+}
+input[type="file"] {
+    display: none;
+}
+.file-upld{
+    align-items: center;
+    width: 90px;
+    height: 28px;
+    margin: 10px;
+    text-align: center;
+    background: #44C4FE;
+    border: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    color: #FFF;
+}
+.checks{
+    display: inline-block;
+    padding: 5px 20px;
+}
+.checks span{
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+vertical-align: top;
+
+color: #808080;
+}
+.checks input{
+    vertical-align: unset;
+}
+.interactions{
+    display: block;
+    float: right;
+}
+.submit{
+    align-items: center;
+    width: 100px;
+    height: 37px;
+    font-weight: 600;
+    margin: 10px;
+    text-align: center;
+    background: #44C4FE;
+    border: 5px solid #44C4FE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    color: #FFF;
+    float: right;
+}
+.del{
+    margin-top: -25px;
+    font-weight: bolder;
+    font-family: 'nos';
+    color: red;
+    font-size: 18px;
+    text-align: end;
+    margin-right: 15px;
+}
+.del:hover{
+    cursor: pointer;
+    color: darkred;
+}
+
+#editer{
+    margin-top: 465px;
+    font-size: 30px;
+    color: #FFF;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+#save{
+    font-size: 30px;
+    color: #FFF;
+    text-align: center;
+    cursor: pointer;
+}
+
+#newcont{
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    color: #d6e6fc;
+    cursor: pointer;
+}
+
+#newcont:hover{
+    color: #b4d2fb;
+}
+
+#selector{
+    display: none;
+}
+
+.selectors{
+    width: 123px;
+    height: 42px;
+    text-align: center;
+    padding: 5px 2px;
+    background: #01a2e1;
+    color: #F6FAFF;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 8px 10px;
+}
+.selectors:hover{
+    background: #12b6f7;
+    transition: 0.5s;
+}

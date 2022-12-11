@@ -1,0 +1,58 @@
+.navbar-hor{
+    width: 100%;
+    height: 60px;
+    background: #0192cb;
+    box-shadow: 9px 8px 24px -1px rgba(0,0,0,0.09);
+    
+}
+.navbar-hor p{
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    color: aliceblue;
+    font-weight: bold;
+}
+.navbar-hor a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.navbar-hor a:hover{
+    text-decoration: none;
+    color: aliceblue;
+}
+#loged-in{
+    display: none;
+}
+#log-in{
+    display: block;
+    cursor: pointer;
+}
+#infoholder{
+    padding-left: 5px;
+    height: 100%;
+    width: 30%;
+    display: inline-block;
+}
+p{
+    vertical-align: middle;
+}
+#infoholder img{
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+    display: inline-block;
+    border-radius: 50%;
+    background: gray;
+}
+.kek{
+    display: inline-block;
+    width: 69%;
+    text-align: right;
+}
+.kek p{
+    padding: 0px 20px;
+}
+.kek input{
+    border: 0px;
+    border-radius: 5px;
+}

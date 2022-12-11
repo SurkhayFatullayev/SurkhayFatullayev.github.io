@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="navbar.css">
+    <script src="jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script type="text/javascript" src="/jquery/jquery-3.6.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>My Page</title>
+    <script src="sample.js"></script>
+    <title>My Page</title>
+    <link rel="icon" type="image/x-icon" href="images/kek.png">
+</head>
+<div class="navbar-hor">
+    <div id="infoholder">
+      <div id="log-in" onclick="changeReg()">
+        <img src="" alt=" ">
+        <p>Log-In</p> 
+      </div>
+    </div>
+    <div class="kek">
+      <p><a href="index.html">Main</a></p>
+      <p><a href="inst.html">Institutions</a></p>
+      <p><a href="profile.html">Profile</a></p>
+      <input type="text">
+    </div>
+</div>
+<div class="cont">
+  <div id="left-cont">
+    <div class="info-holder">
+        <label for="input-you">
+          <img id="profpic"src="1200px-Grey_background.jpg" alt="">
+        </label>
+          <input id="input-you" name="photo" type="file" accept=".png, .jpg, .jpeg, .gif" onchange="document.getElementById('profpic').src = window.URL.createObjectURL(this.files[0])">
+        <div class="info-holder-in">
+          <p class="min-text-info">Mail adresi</p>
+          <p class="max-text-info"></pclass>email_address@gmail.com</p>
+          <p class="min-text-info">Doğum tarixi</p>
+          <p class="max-text-info" id="settedbirthdate">14.04.2002</p>
+          <p class="min-text-info">Ünvan</p>
+          <p class="max-text-info">..............</p>
+        </div>
+    </div>
+    <div class="choice">
+      <p id="haq" onclick="HaqCV()">Haqqında</p>
+      <p id="cv" onclick="CVHaq()">CV</p>
+    </div>
+    <div id="HAQ">
+      <div id="ov-inf">
+        <p class="header-inf">Haqqinda</p>
+        <p class="cont-inf" id="settedabout-you">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy </p>
+      </div>
+      <div id="media-inf">
+        <p class="header-inf">Sosial şəbəkələr</p>
+        <div>
+          <div class="icons" onclick="youinsta()">
+            <i class="fa fa-instagram" id="instasetted" style="font-size:25px"></i>
+          </div>
+          <div class="icons" onclick="youlinkdin()">
+            <i class="fa fa-linkedin" id="linkedinsetted" style="font-size:25px"></i>
+          </div>
+          <div class="icons" onclick="brosabouttostreamsurgeonsimulator()">
+            <i class="fa fa-facebook" id="facebooksetted" style="font-size:25px"></i>
+          </div>
+          <div class="icons" onclick="youtwitter()">
+            <i class="fa fa-twitter" id="twittersetted" style="font-size:25px"></i>
+          </div>
+        </div>
+      </div>
+      <div id="add-inf">
+        <div>
+          <p class="header-inf">Web page:</p>
+          <p class="cont-inf" style="padding-top:13px ;" id="settedWebPage"> sddkcdjkcn</p>
+          
+        </div>
+        <div>
+          <p class="header-inf">Number:</p>
+          <p class="cont-inf" style="padding-top:13px ;"> +994 12 4373235</p>
+        </div>
+      </div>
+    </div>
+    <div id="CV">
+      <p class="header-inf">CV</p>
+      <p class="cont-inf">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy </p>
+    </div>
+  </div>
+  <div id="right-cont">
+    <div id="sub-inf">
+    
+      <div id="sub-in">
+       <div id="subs">
+          <span class="num-subs">5</span>
+          <p>İzləyici</p>
+        </div>
+        <div id="sub-act">
+          <span class="num-subs">5</span>
+          <p>İzləyir</p>
+        </div>
+      
+        <!--Interaction part share and subscribe button-->
+        <div id="sub-int">
+          <button id="sub-btn">SUBSCRIBE</button>
+          <p id="share-btn"><i class="fa fa-share"></i></p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="xd-inf">
+      <div class="xd" id="xd1">
+        <p class="xd-header">17</p>
+        <p>layihə</p>
+      </div>
+      <div class="xd" id="xd2">
+        <p class="xd-header">92%</p>
+        <p>Uğur göstəricisi</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="spam">
+  <!--Fealietler(navigation to cabinet)-->
+  <h3>Fəaliyyətləri</h3>
+  <div id="spam-in">
+    <div class="spam-cont">
+      
+      <div class="spam-cont-in" onclick="cabinet()" id="m">
+        <p class="spam-num">6</p>
+        <p  class="spam-names">Məqalə</p>
+      </div>
+      
+      <div class="spam-cont-in" onclick="cabinet()" id="t">
+        <p class="spam-num">6</p>
+        <p  class="spam-names">Tədbir</p>
+      </div>
+
+      <div class="spam-cont-in" onclick="cabinet()" id="e">
+        <p class="spam-num">6</p>
+        <p class="spam-names">Elmi araşdırma</p>
+      </div>
+      
+      <div class="spam-cont-in" onclick="cabinet()" id="i">
+        <p class="spam-num">6</p>
+        <p  class="spam-names">Innovasiya</p>
+      </div>
+    
+    </div>
+  </div>
+</div>
+
+
+<div id="info-changer">
+  <div id="main-changer">
+    <h4 id="set">SETTINGS</h4>
+    <div id="changer-content">
+
+      <h6>Your birth date</h6>
+      <input type="date" id="birthdate">
+      <input type="submit" onclick="if(document.getElementById('birthdate').value!=' '||'')
+      document.getElementById('settedbirthdate').innerHTML=(document.getElementById('birthdate').value)">
+
+      <h6>Haqqinda</h6>
+      <textarea id="about-you" name="w3review" rows="4" cols="50"></textarea>
+      <input type="submit" onclick="if(document.getElementById('about-you').value!=' '||'')
+      document.getElementById('settedabout-you').innerHTML=(document.getElementById('about-you').value)">
+      <br>
+
+      <h6>Your WebPage</h6>
+      <input type="text" id="WebPage">
+      <input type="submit" onclick="if(document.getElementById('WebPage').value!=' '||'')
+      document.getElementById('settedWebPage').innerHTML=(document.getElementById('WebPage').value)">
+
+      <h6>instagram</h6>
+      <input type="text" id="instaset">
+      <input type="submit" onclick="if(document.getElementById('instaset').value!=' '||'')
+      document.getElementById('instasetted').onclick.window.location.href=(document.getElementById('instaset').value)">
+
+      <h6>linkedin</h6>
+      <input type="text" id="linkedinset">
+      <input type="submit">
+
+      <h6>facebook</h6>
+      <input type="text" id="facebookset">
+      <input type="submit">
+
+      <h6>twitter</h6>
+      <input type="text" id="twitterset">
+      <input type="submit">
+    </div>
+    <div id="actions">
+      
+      <div id="close" onclick="closeprofset()">
+        <h2>LEAVE</h2>
+      </div>
+      
+      <div id="submiter">
+        <input type="submit" value="CHANGE ALL" onclick="savepls()">
+      </div>
+    
+    </div>
+  </div>
+</div>
+</html>
