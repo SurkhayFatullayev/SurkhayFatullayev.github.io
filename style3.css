@@ -387,6 +387,7 @@ margin-bottom: 0px;
     width: 100%;
     height: 2000px;
     background: rgba(0, 0, 0, 50%);
+    display: none;
 }
 #main-changer{
     position: absolute;
@@ -395,6 +396,14 @@ margin-bottom: 0px;
     background: #FFFFFF;
     border-radius: 10px;
 }
+#main-changer h6{
+    padding-left: 5px;
+}
+#main-changer input{
+    border: none;
+    border-bottom: 2px solid #708ad4;
+}
+
 #set{
     text-align: center;
     padding: 5px;
@@ -446,5 +455,14 @@ margin-bottom: 0px;
     background: none;
     height: 45px;
     color: #fff;
+    font-weight: 600;
+}
+#settings-on{
+    float: right;
+    font-size: 14px;
+    border: none;
+    background: #b8b8b8;
+    color: #fff;
+    border-radius: 2px;
     font-weight: 600;
 }
